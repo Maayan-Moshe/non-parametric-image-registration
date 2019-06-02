@@ -8,7 +8,7 @@ In addition to the standard "Horn-Schunck" smoothing term which punishes large x
 we introduce an option to smooth according to the curl and\or the divergence of the displacement field.
 
 My thought is that the only three terms which are:
-* Q in the first spatial derivative of the displacement field (up to linear dependency).
+* Quadratic in the first spatial derivative of the displacement field (up to linear dependency).
 * Positive definite.
 * Invariant to rotations.
 
@@ -24,3 +24,4 @@ This is the most general smoothing term that one can write according to the abov
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
