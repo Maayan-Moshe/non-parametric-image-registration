@@ -2,7 +2,7 @@
 
 We present here non-parametric image registration using [Horn–Schunck method](https://en.wikipedia.org/wiki/Horn%E2%80%93Schunck_method).
 
-##Introduction
+## Introduction
 
 In addition to the standard "Horn-Schunck" smoothing term which punishes large x and y displacement gradients separately 
 we introduce an option to smooth according to the curl and\or the divergence of the displacement field.
